@@ -1,0 +1,14 @@
+--- !ruby/object:Hangman
+word:
+- s
+- m
+- a
+- c
+- k
+word_guessed: s_a__
+letters_used:
+- a
+- s
+letter: save
+hp: 7
+found_word: false
