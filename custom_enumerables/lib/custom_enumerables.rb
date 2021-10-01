@@ -66,12 +66,13 @@ module Enumerable
     self.my_each {|item| ary.push(block.call(item))}
     return ary
   end
-
+  
+  #TO_DO
   def my_inject(memo=nil)
     
     self.my_each do |item|
       if memo == nil && item == 0
-        
+
       end
     end
   end
